@@ -1,0 +1,43 @@
+# Repo-wide build artifacts
+.vs/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Bb]in/
+**/[Oo]bj/
+*.ipch
+*.obj
+*.iobj
+*.ipdb
+*.ilk
+*.idb
+*.pch
+*.pdb
+*.tlog
+*.log
+*.recipe
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rar
+*.zip
+*.fxc
+*.bak*
+*.FileListAbsolute.txt
+
+# Local deployment outputs
+game/client/
+server/Login/
+server/Server1/
+deps/pugixml/build/
+deps/pugixml/scripts/vs2022/
+
+# Delphi-generated files in WebPT
+WebPT/__history/
+*.dcu
+*.identcache
+*.dproj.local
+*.~*
+WebPT/*.dll
